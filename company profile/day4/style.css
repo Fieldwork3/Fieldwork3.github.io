@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*
+div {
+    border: 1px solid grey
+}
+
+.btn-primary {
+    background-color: blueviolet;
+}
+*/
+
+.my-btn-color {
+    background-color: blueviolet;
+}
+
+/*
+.my-background-color {
+    background-color: aquamarine
+}
+*/
+
+.jumbotron{
+    background-color: aqua;
+}
+
+h1{
+    color: brown!important;
+}
+
+.my-img {
+    height: 200px !important;
+    width: 100% !important
+}

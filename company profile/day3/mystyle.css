@@ -12,7 +12,7 @@ a:focus {
 }
 
 .my_font {
-    font-size: 22px
+    font-size: 22px;
 }
 .my_box {
     background-color: aquamarine;
@@ -41,7 +41,7 @@ a:focus {
     margin: 25px;
 
     width: 50%;
-    height: 1200px;
+    height: 120px;
 
     background-image:url(dog.jpg);
     background-size: cover;
