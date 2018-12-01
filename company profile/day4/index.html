@@ -7,11 +7,47 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/fontawesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 
     <title>Document</title>
 </head>
 <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top"> 
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed"
+                data-target="#my-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                <a href="" class="navbar-brand">
+                    Logo:TWNAF
+                </a>
+             </div>
+             
+             <div class="collapse navbar-collapse" id="my-nav">
+                 <ul class="nav navbar-nav">
+                     <li class="active">
+                         <a href="">About Us</a>
+                     </li>
+                     <li>
+                         <a href="">Products</a>
+                     </li>
+                     <li>
+                         <a href="">Best Sellers</a>
+                     </li>
+                </ul>
+
+             </div>
+        </div>
+    </nav>
+
+    <div class="general_spacing"></div>
+    <!--can also use hr-->
 
     <div class="container">
 
@@ -54,7 +90,12 @@
                             <div class="caption">
                                 <h3>Teen</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi debitis voluptatibus facilis non expedita, nam amet illum, vero corporis corrupti obcaecati iusto molestias alias laudantium neque aliquam repellat quis asperiores.
+                                    Lorem ipsum dolor sit amet consectetur
+                                     adipisicing elit. Nisi debitis 
+                                     voluptatibus facilis non expedita, nam 
+                                     amet illum, vero corporis corrupti obcaecati 
+                                     iusto molestias alias laudantium neque aliquam 
+                                     repellat quis asperiores.
                                 </p>
                                 <a href="#" class="btn btn-primary" role="button">
                                     More Info
@@ -64,7 +105,7 @@
             </div>
     
             <div class="col-md-4">
-                    <div class="thumbnail">
+                <div class="thumbnail">
                             <img src="old father.jpg" class="my-img" alt="...">
                             <div class="caption">
                                 <h3>Adult</h3>
@@ -75,10 +116,10 @@
                                     More Info
                                 </a> 
                             </div>
-                    </div>
-            </div>
-                
+                </div>
         </div>
+                
+    </div>
 
         <div class="row">
 
@@ -89,38 +130,161 @@
             </div>
         </div>
 
-        <div class="row">
+        <div class="row my-margin-bottom" >
 
             <div class="col-md-6">
-                row 4 col 1
-            </div>
-    
-            <div class="col-md-6">
-                row 4 col 2
-            </div>
+
+                <H2>Sign Up Here</H2>
+                <hr>
                 
+                <form action="">
+
+                    <legend>Sign Up Here</legend>
+
+                    <div class="form-group">
+                        <label for="">Full name</label>
+                        <input type="text" name="" id="" class="form-control" placeholder="Input your name">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="text" name="" id="" class="form-control" placeholder="sunny@sunmail.com">
+                    </div>
+
+                    <div class="form-group">
+                        <div class="radio">
+                            <label>
+                            <input type="radio" name="newsletter" id=""> Send me newsletter
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                            <input type="radio" name="newsletter" id=""> Don't send me newsletter
+                            </label>
+                        </div>
+                        <div>
+                        <input type="submit" value="SEND" class="btn btn-primary">
+                        </div>
+                    </div>
+                    </form>
+                </div>
+    
+            <div class="col-md-6 text-center">
+                
+                <h2>Lorem Loren</h2>
+                <hr>
+                <p>
+                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque qui ducimus aliquid, dolores fuga repudiandae quae sed! Delectus, quisquam eum illum consequuntur quidem odio nemo, porro, accusantium ut eos placeat!
+                </p>
+            </div>                
         </div>
     
         <div class="row">
 
             <div class="col-md-4">
-                    row  5 col 1
+                <h3 class="text-center">Opening Hours</h3>
+                    <table class="table table-striped">
+                     <thead>
+                         <tr>
+                             <th>
+                                 Day
+                             </th>
+                             <th>
+                                 Hours
+                             </th>
+                         </tr>
+                     </thead> 
+                     <tbody>
+                         <tr>
+                             <td>
+                                 Monday to Thursday
+                             </td>
+                             <td>
+                                 9am - 5pm
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>
+                                 Friday to Saturday
+                             </td>
+                             <td>
+                                 11am to 3pm
+                             </td>
+                         </tr>
+                         <tr>
+                             <td>
+                                 Sunday
+                             </td>
+                             <td>
+                                 closed
+                             </td>
+                         </tr>
+                     </tbody>   
+                    </table>
             </div>
         
             <div class="col-md-4">
-                    row 5 col 2
-            </div>
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.795462238928!2d103.78531511400847!3d1.2974123990537294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da1a4fdcdcb793%3A0x560828fd88f7aa6!2sJTC+Launchpad!5e0!3m2!1sen!2ssg!4v1543632828157" class="embed-responsive-item"></iframe>
+                </div>
+               </div>
+            
         
             <div class="col-md-4">
-                    row 5 col 3
+                
+                <h3>Let's chat!</h3>
+
+                <ul class="list-group">
+                    
+                    <li class="list-group-item">
+                        <a href="tel:+6522222222" class="my-link">
+                            <i class="fa fa-phone" aria-hidden="true"></i> &nbsp;+65 2222 2222
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="mailto:lowsk99@gmail.com">
+                            <i class="fa fa-envelope" aria-hidden="true"></i> &nbsp;sunny@sunmail.com
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                            <i class="fa fa-linkedin-square" aria-hidden="true"></i> &nbsp;sunny@sunmail.com
+                    </li>
+
+                </ul>
+
             </div>
                     
         </div>
         
         <div class="row">
 
-             <div class="col-md-12">
-                        row 6 col 1
+             <div class="col-md-12 text-center">
+
+                <hr>
+        
+                <ul class="list-inline">
+                    <li>
+                        <a href="http://instagram.com/abcd">
+                            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/abcd">
+                            <i class="fa fa-facebook-official fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/abcd">
+                            <i class="fa fa-google fa-3x" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://instagram.com/abcd">
+                            <i class="fa fa-twitter fa-3x my-icon-color" aria-hidden="true"></i>
+                        </a>
+                    </li>
+
+                </ul>
             </div>
         </div>
 

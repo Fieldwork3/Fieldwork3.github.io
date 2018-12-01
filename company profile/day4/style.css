@@ -26,7 +26,7 @@ div {
 */
 
 .jumbotron{
-    background-color: aqua;
+    background-color: burlywood;
 }
 
 h1{
@@ -36,4 +36,20 @@ h1{
 .my-img {
     height: 200px !important;
     width: 100% !important
+}
+
+.my-icon-color {color: red;
+}
+
+.my-margin-bottom {
+    margin-bottom: 30px;
+}
+
+.my-link:hover {
+    text-decoration: none;
+    color: red;
+}
+
+.general_spacing {
+    margin-bottom: 70px;
 }
