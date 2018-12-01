@@ -30,8 +30,11 @@ var fullName = firstName + space + lastName;
 
 var fullName1 = firstName + 5 + lastName;
 
+var fullName2 = firstName + " " + lastName;
+
 console.log( fullName);
 console.log(fullName1);
+console.log(fullName2);
 
 var qty = 2;
 var total = 200;
