@@ -4,6 +4,11 @@ function calculate(myLocation, myLocation2, myLocation3) {
     console.log(myName);
 }
 
+calculate("One North", "JTC Launchpad");
+//to do a dynamic function to return multple times
+
+calculate("test","test");
+
 /*above is a procedure to just perform a task
 can pass external value to between the brackets ()
 */
@@ -11,11 +16,6 @@ can pass external value to between the brackets ()
 /*
 comments for multiple lines
 */
-
-calculate("One North", "JTC Launchpad");
-//to do a dynamic function to return multple times
-
-calculate("test","test");
 
 function getMyFullName() {
     var firstName = "Stackup";
@@ -25,6 +25,7 @@ function getMyFullName() {
 }
 var myFullName = getMyFullName();
 console.log(myFullName);
+
 
 function greet(firstName, lastName, bornYear){
     var age = 2018 - bornYear;
@@ -36,6 +37,6 @@ greet("Michael", "Jordan", 1988);
 greet("Mauro", "Icardi", 1987);
 greet("Lionel", "Messi", 1977);
 
-function testMe(){
+function hitMe(){
     alert("Hi you hit the button");
 }
