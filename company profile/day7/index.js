@@ -125,3 +125,49 @@ while( step < numbers.length) {
 
     step = step +1;
 }
+
+var numbers_2 = [1,2,3,4,5,6,7,8,9,10];
+for( var a = 0 ; a < numbers_2.length; a++) {
+    console.log(numbers_2[a]);
+}
+
+var collections = [];
+
+console.log(collections);
+
+collections.push("Test");
+
+console.log(collections);
+
+collections.push("Test2");
+
+console.log(collections);
+
+
+
+var myCollections = [];
+
+//if var myCollections = [] is inside the function, it will always re-initialise the var 
+//and reload only one number always, so do it once outside the function
+
+function addMe() {
+    var myText = document.getElementById("myText").value;
+    myCollections.push(myText);
+
+    //3)to empty value  
+    document.getElementById("myResult").innerHTML = ""
+
+    //document.getElementById("myResult").innerHTML = "This is Test only";
+    //innerHTML is to get it display out in HTML.
+
+    for( var a = 0; a < myCollections.length ; a++ ){
+        var currValue = myCollections[a] + "<br>"; // 4)to bring on next line
+        // a is current index value.
+        var currResultValue = document.getElementById("myResult").innerHTML;
+        document.getElementById("myResult").innerHTML = currResultValue + currValue;
+        //2) not to replace the previous value, so the additon of two Values
+    }
+}
+
+var test = document.getElementById("myResult").innerHTML;
+console.log(test);
